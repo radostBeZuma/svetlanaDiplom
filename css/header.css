@@ -1,0 +1,35 @@
+.header__wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 30px;
+}
+
+.header__link {
+	display: inline-block;
+	text-decoration: none;
+	border: none;
+	color: var(--black-color);
+}
+
+.header__link:first-child {
+	margin-right: 50px;
+}
+
+.header__link::after {
+	content: '';
+	width: 0px;
+	height: 1px;
+	display: block;
+	background: black;
+	transition: 300ms;
+}
+
+.header__link:hover::after {
+	width: 100%;
+}
+
+.title {
+	margin-top: 35px;
+	margin-bottom: 45px;
+}
