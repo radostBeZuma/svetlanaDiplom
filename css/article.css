@@ -59,13 +59,13 @@
 	margin-right: 20px;
 }
 
-.article__link {
+/* .article__link {
 	transition: 0.3s transform;
 }
 
 .article__link:hover {
 	transform: translateX(8px);
-}
+} */
 
 .article__answer {
 	margin-top: 20px;
