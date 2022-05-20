@@ -7,3 +7,15 @@
 	margin-top: 10px;
 	margin-bottom: 20px;
 }
+
+.popular-art__btn-wrap {
+	margin-top: 80px;
+	padding-bottom: 90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.popular-art__btn-more-articles {
+	flex-basis: 410px;
+}

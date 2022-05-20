@@ -253,9 +253,14 @@
 }
 
 .coffee-cards__tab {
+	cursor: pointer;
 	padding: 10px 15px;
 	border: 1px solid var(--grey-color-disable);
 	border-radius: 10px;
+}
+
+.coffee-cards__tab:hover {
+	color: var(--grey-color-disable);
 }
 
 .coffee-cards__tab:first-child {
@@ -282,6 +287,7 @@
 }
 
 .coffee-cards__btn-add {
+	cursor: pointer;
 	border: none;
 	border-radius: 10px;
 	background-color: var(--grey-color-disable);
@@ -299,15 +305,5 @@
 }
 
 .coffee-cards__show-more {
-	cursor: pointer;
 	flex-basis: 410px;
-	height: 60px;
-	border: none;
-	background-color: var(--black-color);
-	color: var(--white-color);
-	border-radius: 10px;
-	font-family: 'Rubik';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 20px;
 }
