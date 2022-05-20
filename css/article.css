@@ -1,6 +1,10 @@
-.article__wrap {
+.article__line {
 	display: flex;
 	justify-content: space-between;
+}
+
+.article__line:not(:first-child) {
+	margin-top: 80px;
 }
 
 .article__card {
@@ -33,6 +37,21 @@
 	border-right: 3px solid black;
 }
 
+.article__inner-big {
+	margin-top: -5px;
+	padding: 19px 15px 15px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom: 3px solid black;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+}
+
+.article__name-and-link {
+	display: flex;
+	justify-content: space-between;
+}
+
 .article__name-article {
 	font-weight: 700;
 	font-size: 13px;
@@ -46,4 +65,10 @@
 
 .article__link:hover {
 	transform: translateX(8px);
+}
+
+.article__answer {
+	margin-top: 20px;
+	font-size: 13px;
+	color: var(--grey-color);
 }
