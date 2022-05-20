@@ -1,0 +1,25 @@
+.about__wrapper {
+	margin-top: 60px;
+}
+
+.about__inner {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.about__text-wrap {
+	margin-top: 20px;
+	flex-basis: 539px;
+}
+
+.about__text {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 140%;
+
+}
+
+.about__text:first-child {
+	margin-bottom: 40px;
+}

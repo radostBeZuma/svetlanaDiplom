@@ -1,0 +1,21 @@
+.welcome-block__wrapper {
+	margin-top: 60px;
+	position: relative;
+	height: 748px;
+}
+
+.welcome-block__head-text {
+	margin-bottom: 60px;
+}
+
+.welcome-block__desc {
+	font-size: 20px;
+}
+
+.welcome-block__img {
+	z-index: -1;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+

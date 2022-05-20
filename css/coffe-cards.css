@@ -299,6 +299,7 @@
 }
 
 .coffee-cards__show-more {
+	cursor: pointer;
 	flex-basis: 410px;
 	height: 60px;
 	border: none;

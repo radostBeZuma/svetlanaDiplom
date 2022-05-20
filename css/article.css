@@ -1,0 +1,22 @@
+.article__wrap {
+	display: flex;
+	justify-content: space-between;
+}
+
+.article__card {
+	box-sizing: border-box;
+	position: relative;
+	flex-basis: 33.3%;
+
+	border-radius: 20px;
+}
+
+.article__card:not(:last-child) {
+	margin-right: 25px;
+}
+
+.article__img {
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	width: 100%;
+}
