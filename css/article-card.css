@@ -1,0 +1,28 @@
+.article-card__name-article {
+	margin-top: 60px;
+	text-transform: uppercase;
+}
+
+.article-card__desc {
+	margin-top: 25px;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.article-card__img {
+	margin-top: 25px;
+	max-width: 1150px;
+	width: 100%;
+	height: auto;
+}
+
+.article-card__all-text {
+	margin-top: 35px;
+	font-size: 20px;
+}
+
+.article-card__all-text p {
+	font-weight: 300;
+	padding-bottom: 20px;
+	line-height: 120%;
+}
