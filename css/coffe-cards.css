@@ -260,7 +260,7 @@
 }
 
 .coffee-cards__tab:hover {
-	color: var(--grey-color-disable);
+	background-color: var(--white-color-muted);
 }
 
 .coffee-cards__tab:first-child {

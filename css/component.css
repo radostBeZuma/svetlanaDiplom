@@ -96,3 +96,7 @@ p {
 	background-color: var(--white-color);
 	color: var(--black-color);
 }
+
+.mt45 {
+	margin-top: 45px;
+}
