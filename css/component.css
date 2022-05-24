@@ -15,6 +15,8 @@
 
 	--white-color: #fff;
 	--white-color-muted: #f3f2f2;
+
+	--red-color-error: #AE2626;
 }
 
 h1 {
@@ -58,8 +60,8 @@ p {
 
 input {
 	border: none;
-	padding-left: 10px;
-	border-bottom: 2px solid black;
+	padding: 15px 10px;
+	border-bottom: 2px solid var(--black-color);
 	font-family: 'Rubik';
 	font-style: normal;
 	font-weight: 400;
@@ -145,6 +147,19 @@ input:focus {
 	margin-top: 45px;
 }
 
+
+
+/* form */
+
+.error-text {
+	color: var(--red-color-error);
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 100%;
+}
+
 .transition-link-wrap {
 	padding: 35px 0;
 	border-top: 1px solid var(--black-color);
@@ -175,3 +190,5 @@ input:focus {
 .transition-link:hover::after {
 	width: 100%;
 }
+
+/* form end */

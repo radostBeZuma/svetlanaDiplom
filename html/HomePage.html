@@ -18,6 +18,7 @@
 	<link rel="stylesheet" href="/css/popular-art.css">
 	<link rel="stylesheet" href="/css/article.css">
 	<link rel="stylesheet" href="/css/login.css">
+	<link rel="stylesheet" href="/css/registration.css">
 	<!-- Css init end -->
 
 </head>
@@ -357,20 +358,36 @@
 		</section>
 	</div>
 
+	<!-- добавление класса _active включит форму логина (пример: login _active) -->
+	<!-- при ошибке необходимо на input добавить error-text с текстом ошибки -->
 	<section class="login _active">
 		<div class="login__shadow">
 			<div class="login__wrap">
 				<div class="login__exit-wrap">
-					<img src="/img/exit.jpg" alt="Выход" width="20px" height="20px">
+					<img src="/img/form/exit.jpg" alt="Выход" width="20px" height="20px">
 				</div>
 				<div class="login__inner">
 					<h5 class="login__head-text">Вход в систему</h5>
-					<form class="login__form-inner">
-						<input class="login__input" type="text" name="email" placeholder="Email">
-						<input class="login__input" type="password" name="login" placeholder="Password">
-						<div class="login__btn-wrap">
-							<button class="login__submit-btn submit-btn" type="button">Войти</button>
+
+					<form>
+						<div class="login__wrapper">
+							<div class="login__input-wrap">
+								<input class="login__input" type="text" name="email" placeholder="Email">
+								<p class="login__error-email-text"></p>
+							</div>
+
+							<div class="login__input-wrap">
+								<input class="login__input input-error" type="password" name="login"
+									placeholder="Password">
+								<p class="login__error-email-text error-text">Введен не верный логин или пароль</p>
+							</div>
+
+
+							<div class="login__btn-wrap">
+								<button class="login__submit-btn submit-btn" type="button">Войти</button>
+							</div>
 						</div>
+
 					</form>
 				</div>
 
@@ -382,7 +399,19 @@
 		</div>
 	</section>
 
-	
+	<section class="registration">
+		<div class="registration__shadow">
+			<div class="registration__wrap">
+				<div class="registration__exit-wrap">
+					<img src="/img/form/exit.jpg" alt="Выход" width="20px" height="20px">
+				</div>
+				<div class="registration__inner">
+					<h5 class="login__head-text">Регистрация</h5>
+				</div>
+			</div>
+
+		</div>
+	</section>
 </body>
 
 </html>
