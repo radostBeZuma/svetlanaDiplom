@@ -101,12 +101,16 @@ input::placeholder {
 	line-height: 100%;
 }
 
-
 .stars-text {
 	font-family: 'Manrope';
 	font-style: normal;
 	font-weight: 600;
 	font-size: 16px;
+}
+
+.title-pos {
+	margin-top: 35px;
+	margin-bottom: 45px;
 }
 
 .btn-big {
