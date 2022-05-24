@@ -6,30 +6,3 @@
 	display: block;
 }
 
-.registration__shadow {
-	position: fixed;
-	top: 0;
-	right: 0;
-	left: 0;
-	bottom: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: var(--black-shadow);
-	z-index: 1000;
-}
-
-.registration__wrap {
-	position: relative;
-	background-color: var(--white-color);
-}
-
-.registration__exit-wrap {
-	position: absolute;
-	top: 25px;
-	right: 20px;
-}
-
-.registration__inner {
-	padding: 10px 20px 20px;
-}

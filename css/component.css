@@ -12,6 +12,7 @@
 	--grey-color: #A0A0A0;
 	--grey-color-disable: #C4C4C4;
 	--grey-color-text-card: #474747;
+	--grey-form-color: #C9C9C9;
 
 	--white-color: #fff;
 	--white-color-muted: #f3f2f2;
@@ -72,6 +73,10 @@ input {
 input:focus {
 	outline: none;
 	border-width: 3px;
+}
+
+input::placeholder {
+	color: var(--grey-form-color);
 }
 
 .wrapper {
@@ -146,8 +151,6 @@ input:focus {
 .mt45 {
 	margin-top: 45px;
 }
-
-
 
 /* form */
 

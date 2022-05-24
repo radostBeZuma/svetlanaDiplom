@@ -17,6 +17,7 @@
 	<link rel="stylesheet" href="/css/coffe-cards.css">
 	<link rel="stylesheet" href="/css/popular-art.css">
 	<link rel="stylesheet" href="/css/article.css">
+	<link rel="stylesheet" href="/css/form.css">
 	<link rel="stylesheet" href="/css/login.css">
 	<link rel="stylesheet" href="/css/registration.css">
 	<!-- Css init end -->
@@ -360,58 +361,86 @@
 
 	<!-- добавление класса _active включит форму логина (пример: login _active) -->
 	<!-- при ошибке необходимо на input добавить error-text с текстом ошибки -->
-	<section class="login _active">
-		<div class="login__shadow">
-			<div class="login__wrap">
-				<div class="login__exit-wrap">
-					<img src="/img/form/exit.jpg" alt="Выход" width="20px" height="20px">
-				</div>
-				<div class="login__inner">
-					<h5 class="login__head-text">Вход в систему</h5>
 
-					<form>
-						<div class="login__wrapper">
-							<div class="login__input-wrap">
-								<input class="login__input" type="text" name="email" placeholder="Email">
-								<p class="login__error-email-text"></p>
+	<section class="login">
+		<div class="form">
+			<div class="form__shadow">
+				<div class="form__wrap">
+					<div class="form__exit-btn-wrap">
+						<img src="/img/form/exit.jpg" alt="Выход" width="20px" height="20px">
+					</div>
+					<div class="form__inner">
+						<h5 class="form__head-text">Вход в систему</h5>
+						<form>
+							<div class="form__input-wrap">
+								<input class="form__input" type="text" name="email" placeholder="Email">
+								<p class="form__error-text"></p>
 							</div>
-
-							<div class="login__input-wrap">
-								<input class="login__input input-error" type="password" name="login"
+							<div class="form__input-wrap">
+								<input class="form__input input-error" type="password" name="password"
 									placeholder="Password">
-								<p class="login__error-email-text error-text">Введен не верный логин или пароль</p>
+								<p class="form__error-text error-text">Введен не верный логин или пароль</p>
 							</div>
-
-
-							<div class="login__btn-wrap">
-								<button class="login__submit-btn submit-btn" type="button">Войти</button>
+							<div class="form__submit-btn-wrap">
+								<button class="form__submit-btn submit-btn" type="button">Войти</button>
 							</div>
-						</div>
-
-					</form>
+						</form>
+					</div>
+					<div class="form__link-wrap transition-link-wrap">
+						<button class="form__link transition-link">Регистрация</button>
+					</div>
 				</div>
-
-				<div class="login__regist-link-wrap transition-link-wrap">
-					<button class="login__regist-link transition-link">Регистрация</button>
-				</div>
-
 			</div>
 		</div>
 	</section>
 
 	<section class="registration">
-		<div class="registration__shadow">
-			<div class="registration__wrap">
-				<div class="registration__exit-wrap">
-					<img src="/img/form/exit.jpg" alt="Выход" width="20px" height="20px">
-				</div>
-				<div class="registration__inner">
-					<h5 class="login__head-text">Регистрация</h5>
+		<div class="form">
+			<div class="form__shadow">
+				<div class="form__wrap form__wrap--large">
+					<div class="form__exit-btn-wrap">
+						<img src="/img/form/exit.jpg" alt="Выход" width="20px" height="20px">
+					</div>
+					<div class="form__inner form__inner--large">
+						<h5 class="form__head-text">Регистрация</h5>
+						<form>
+							<div class="form__input-wrap">
+								<input class="form__input form__input--mod-border" type="text" name="info"
+									placeholder="Имя и Фамилия">
+								<p class="form__error-text"></p>
+							</div>
+							<div class="form__input-wrap">
+								<input class="form__input form__input--mod-border" type="text" name="email"
+									placeholder="Email">
+								<p class="form__error-text"></p>
+							</div>
+							<div class="form__input-wrap">
+								<input class="form__input form__input--mod-border" type="tel" name="tel"
+									placeholder="+7">
+								<p class="form__error-text"></p>
+							</div>
+							<div class="form__input-wrap">
+								<input class="form__input form__input--mod-border" type="password" name="password"
+									placeholder="Пароль">
+								<p class="form__error-text"></p>
+							</div>
+							<div class="form__input-wrap">
+								<!-- <input class="form__input form__input--mod-border input-error" type="password" name="rep-password" placeholder="Повторите пароль"> -->
+								<input class="form__input form__input--mod-border" type="password" name="rep-password"
+									placeholder="Повторите пароль">
+								<!-- <p class="form__error-text error-text">Введен не верный логин или пароль</p> -->
+								<p class="form__error-text"></p>
+							</div>
+							<div class="form__submit-btn-wrap form__submit-btn-wrap--mt25">
+								<button class="form__submit-btn submit-btn" type="button">Зарегистрироваться</button>
+							</div>
+						</form>
+					</div>
 				</div>
 			</div>
-
 		</div>
 	</section>
+
 </body>
 
 </html>
