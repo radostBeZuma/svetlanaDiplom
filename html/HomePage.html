@@ -17,6 +17,7 @@
 	<link rel="stylesheet" href="/css/coffe-cards.css">
 	<link rel="stylesheet" href="/css/popular-art.css">
 	<link rel="stylesheet" href="/css/article.css">
+	<link rel="stylesheet" href="/css/login.css">
 	<!-- Css init end -->
 
 </head>
@@ -354,56 +355,34 @@
 				</div>
 			</section>
 		</section>
-
-		<section class="popular-art">
-			<div class="popular-art__wrapper">
-				<h2>Популярные статьи</h2>
-				<p class="popular-art__desc">Статьи написаны нашими представителями и приглашенными авторами</p>
-				<div class="popular-art__inner">
-					<section class="article">
-						<div class="article__line">
-							<div class="article__card">
-								<img class="article__img" src="/img/article/berries.jpg" alt="">
-								<div class="article__inner">
-									<p class="article__name-article">Как обжарщики поддерживают <br> фермеров в
-										Коста-Рике</p>
-									<a class="article__link" href="#">
-										<img src="/img/article/arrow.jpg" alt="Переход на статью">
-									</a>
-								</div>
-							</div>
-							<div class="article__card">
-								<img class="article__img" src="/img/article/berries.jpg" alt="">
-								<div class="article__inner">
-									<p class="article__name-article">Как обжарщики поддерживают <br> фермеров в
-										Коста-Рике</p>
-									<a class="article__link" href="#">
-										<img src="/img/article/arrow.jpg" alt="Переход на статью">
-									</a>
-								</div>
-							</div>
-							<div class="article__card">
-								<img class="article__img" src="/img/article/berries.jpg" alt="" width="360px"
-									height="157px">
-								<div class="article__inner">
-									<p class="article__name-article">Как обжарщики поддерживают <br> фермеров в
-										Коста-Рике
-									</p>
-									<a class="article__link" href="#">
-										<img src="/img/article/arrow.jpg" alt="Переход на статью">
-									</a>
-								</div>
-							</div>
-						</div>
-					</section>
-				</div>
-				<div class="popular-art__btn-wrap">
-					<button class="popular-art__btn-more-articles btn-big" type="button">Больше статей</button>
-				</div>
-			</div>
-		</section>
 	</div>
 
+	<section class="login _active">
+		<div class="login__shadow">
+			<div class="login__wrap">
+				<div class="login__exit-wrap">
+					<img src="/img/exit.jpg" alt="Выход" width="20px" height="20px">
+				</div>
+				<div class="login__inner">
+					<h5 class="login__head-text">Вход в систему</h5>
+					<form class="login__form-inner">
+						<input class="login__input" type="text" name="email" placeholder="Email">
+						<input class="login__input" type="password" name="login" placeholder="Password">
+						<div class="login__btn-wrap">
+							<button class="login__submit-btn submit-btn" type="button">Войти</button>
+						</div>
+					</form>
+				</div>
+
+				<div class="login__regist-link-wrap transition-link-wrap">
+					<button class="login__regist-link transition-link">Регистрация</button>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	
 </body>
 
 </html>

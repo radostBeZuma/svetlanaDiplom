@@ -8,6 +8,10 @@
 	justify-content: space-between;
 }
 
+.about__img {
+	margin-right: 30px;
+}
+
 .about__text-wrap {
 	margin-top: 20px;
 	flex-basis: 539px;
