@@ -1,6 +1,5 @@
 .coffee-cards__line {
 	display: flex;
-	justify-content: space-between;
 	margin-bottom: 20px;
 }
 
@@ -8,12 +7,8 @@
 	flex-basis: 33.3%;
 }
 
-.coffee-cards__card:first-child {
+.coffee-cards__card:not(:last-child) {
 	margin-right: 20px;
-}
-
-.coffee-cards__card:last-child {
-	margin-left: 20px;
 }
 
 .coffee-cards__card {
