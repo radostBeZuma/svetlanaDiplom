@@ -1,0 +1,17 @@
+.personal-cabinet__wrap {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 60px;
+}
+
+.personal-cabinet__btn-exit {
+	border: none;
+	cursor: pointer;
+	background-color: var(--grey-form-color);
+	padding: 10px 45px;
+	border-radius: 20px;
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+}
