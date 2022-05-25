@@ -2,7 +2,6 @@
 	display: none;
 }
 
-.registration._active {
+.registration._is-active {
 	display: block;
 }
-

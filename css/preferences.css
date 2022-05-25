@@ -3,15 +3,6 @@
 
 }
 
-.preferences__welcome-text {
-	margin-bottom: 35px;
-	font-family: 'Manrope';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 32px;
-}
-
-
 .preferences__pref-wrap-text:not(:last-child) {
 	margin-bottom: 15px;
 }

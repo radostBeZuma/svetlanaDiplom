@@ -1,4 +1,5 @@
 .personal-cabinet__wrap {
+
 	display: flex;
 	justify-content: space-between;
 	margin-top: 60px;
@@ -14,4 +15,12 @@
 	font-style: normal;
 	font-weight: 500;
 	font-size: 25px;
+}
+
+.personal-cabinet__welcome-text {
+	margin-top: 50px;
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
 }

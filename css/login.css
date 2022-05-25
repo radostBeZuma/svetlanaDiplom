@@ -2,6 +2,6 @@
 	display: none;
 }
 
-.login._active {
+.login._is-active {
 	display: block;
 }

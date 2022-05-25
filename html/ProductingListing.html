@@ -9,14 +9,14 @@
 	<title>Подбор зерен</title>
 
 	<!-- Icon site -->
-	<link rel="shortcut icon" href="/img/favicon.jpg" type="image/jpg">
+	<link rel="shortcut icon" href="/img/favicon.png" type="image/png">
 
 	<!-- Css init -->
 	<link rel="stylesheet" href="/css/component.css">
 	<link rel="stylesheet" href="/css/header.css">
 	<link rel="stylesheet" href="/css/search.css">
-	<link rel="stylesheet" href="/css/error-search.css">
-	<link rel="stylesheet" href="/css/coffe-cards.css">
+	<link rel="stylesheet" href="/css/error.css">
+	<link rel="stylesheet" href="/css/coffee-cards.css">
 	<!-- Css init end -->
 </head>
 
@@ -102,9 +102,9 @@
 			</div>
 		</section>
 
-		<section class="error-search">
-			<div class="error-search__wrapper">
-				<p class="error-search__text-error">К сожалению, по вашему запрос не было найдено подходящего кофе <br>
+		<section class="error">
+			<div class="error__wrapper">
+				<p class="error__text-error">К сожалению, по вашему запрос не было найдено подходящего кофе <br>
 					Посмотрите другие предложения, схожие с вашими</p>
 			</div>
 		</section>
@@ -135,7 +135,10 @@
 							</div>
 						</div>
 						<div class="coffee-cards__name">
-							<p class="coffee-cards__title">Индонезия Фринса</p>
+							<a class="coffee-cards__detail-link" href="/html/ProductCard.html">
+								<p class="coffee-cards__title">Индонезия Фринса</p>
+							</a>
+
 							<p class="coffee-cards__subtitle">для эспрессо</p>
 						</div>
 						<div class="coffee-cards__main-side">
@@ -223,7 +226,10 @@
 							</div>
 						</div>
 						<div class="coffee-cards__name">
-							<p class="coffee-cards__title">Индонезия Фринса</p>
+							<a class="coffee-cards__detail-link" href="/html/ProductCard.html">
+								<p class="coffee-cards__title">Индонезия Фринса</p>
+							</a>
+
 							<p class="coffee-cards__subtitle">для эспрессо</p>
 						</div>
 						<div class="coffee-cards__main-side">
@@ -250,7 +256,7 @@
 									<p class="coffee-cards__characteristic-desc">Сладость</p>
 								</div>
 								<div class="coffee-cards__selected-list">
-									<p class="coffee-cards__selected-text">Помол</p>
+									<p class="coffee-cards__selected-text">Для капельной кофевраки</p>
 									<div class="coffee-cards__selected-arrow">
 										<img src="/img/coffee-cards/arrow.jpg" alt="Открытие листа">
 									</div>
@@ -311,7 +317,10 @@
 							</div>
 						</div>
 						<div class="coffee-cards__name">
-							<p class="coffee-cards__title">Индонезия Фринса</p>
+							<a class="coffee-cards__detail-link" href="/html/ProductCard.html">
+								<p class="coffee-cards__title">Индонезия Фринса</p>
+							</a>
+
 							<p class="coffee-cards__subtitle">для эспрессо</p>
 						</div>
 						<div class="coffee-cards__main-side">
@@ -338,7 +347,7 @@
 									<p class="coffee-cards__characteristic-desc">Сладость</p>
 								</div>
 								<div class="coffee-cards__selected-list">
-									<p class="coffee-cards__selected-text">Помол</p>
+									<p class="coffee-cards__selected-text">Для капельной кофевраки</p>
 									<div class="coffee-cards__selected-arrow">
 										<img src="/img/coffee-cards/arrow.jpg" alt="Открытие листа">
 									</div>
@@ -396,14 +405,17 @@
 									</div>
 								</div>
 							</div>
-							<div class="coffee-cards__like">
+							<div class="coffee-cards__like _active">
 								<img class="coffee-cards__like-img-disable" src="/img/coffee-cards/like-disable.jpg"
 									alt="Избранное">
 								<img class="coffee-cards__like-img" src="/img/coffee-cards/like.jpg" alt="Избранное">
 							</div>
 						</div>
 						<div class="coffee-cards__name">
-							<p class="coffee-cards__title">Индонезия Фринса</p>
+							<a class="coffee-cards__detail-link" href="/html/ProductCard.html">
+								<p class="coffee-cards__title">Индонезия Фринса</p>
+							</a>
+
 							<p class="coffee-cards__subtitle">для эспрессо</p>
 						</div>
 						<div class="coffee-cards__main-side">
@@ -430,7 +442,98 @@
 									<p class="coffee-cards__characteristic-desc">Сладость</p>
 								</div>
 								<div class="coffee-cards__selected-list">
-									<p class="coffee-cards__selected-text">Помол</p>
+									<p class="coffee-cards__selected-text">Для капельной кофевраки</p>
+									<div class="coffee-cards__selected-arrow">
+										<img src="/img/coffee-cards/arrow.jpg" alt="Открытие листа">
+									</div>
+									<div class="coffee-cards__choice-list-wrap _active">
+										<p class="coffee-cards__choice">
+											<span>для капельной кофевраки</span>
+										</p>
+										<p class="coffee-cards__choice">фильтр</p>
+										<p class="coffee-cards__choice">для кемекса</p>
+										<p class="coffee-cards__choice">для аэроспрессо</p>
+										<p class="coffee-cards__choice">для эспрессо (грубо)</p>
+										<p class="coffee-cards__choice">для эспрессо (мягко)</p>
+										<p class="coffee-cards__choice">для турки</p>
+										<p class="coffee-cards__choice">для кофемашины</p>
+									</div>
+								</div>
+							</div>
+							<div class="coffee-cards__coffee-img">
+								<img src="/img/coffee-cards/coffee.png" alt="Кофе" width="180px" height="200px">
+							</div>
+						</div>
+						<p class="coffee-cards__description">Пряный аромат, сочное тело. Идеальный баланс винной и
+							яблочной кислотности и шлейф из нот красных ягод</p>
+						<div class="coffee-cards__user-tolls">
+							<div class="coffee-cards__tabs-wrap">
+								<div class="coffee-cards__tab _active">
+									<p class="coffee-cards__weight">250 г.</p>
+									<p class="coffee-cards__price">568 ₽</p>
+								</div>
+								<div class="coffee-cards__tab">
+									<p class="coffee-cards__weight">1000 г.</p>
+									<p class="coffee-cards__price">2488 ₽</p>
+								</div>
+							</div>
+							<button class="coffee-cards__btn-add" type="button">Добавить</button>
+						</div>
+					</div>
+
+					<div class="coffee-cards__card">
+						<div class="coffee-cards__stars-likes">
+							<div class="coffee-cards__stars">
+								<div class="coffee-cards__stars-top">
+									<img class="coffee-cards__stars-img" src="/img/coffee-cards/star.jpg" alt="Звезда"
+										width="16px" height="16px">
+									<p class="coffee-cards__stars-text stars-text">4.5</p>
+								</div>
+								<div class="coffee-cards__stars-bottom">
+									<div class="coffee-cards__stars-progress">
+										<div class="coffee-cards__stars-progress-total"></div>
+										<div class="coffee-cards__stars-progress-current"></div>
+									</div>
+								</div>
+							</div>
+							<div class="coffee-cards__like">
+								<img class="coffee-cards__like-img-disable" src="/img/coffee-cards/like-disable.jpg"
+									alt="Избранное">
+								<img class="coffee-cards__like-img" src="/img/coffee-cards/like.jpg" alt="Избранное">
+							</div>
+						</div>
+						<div class="coffee-cards__name">
+							<a class="coffee-cards__detail-link" href="/html/ProductCard.html">
+								<p class="coffee-cards__title">Индонезия Фринса</p>
+							</a>
+
+							<p class="coffee-cards__subtitle">для эспрессо</p>
+						</div>
+						<div class="coffee-cards__main-side">
+							<div class="coffee-cards__characteristic">
+								<div class="coffee-cards__characteristic-inner">
+									<div class="coffee-cards__characteristic-progress">
+										<div class="coffee-cards__characteristic-progress-total"></div>
+										<div class="coffee-cards__characteristic-progress-current"></div>
+									</div>
+									<p class="coffee-cards__characteristic-desc">Кислотность</p>
+								</div>
+								<div class="coffee-cards__characteristic-inner">
+									<div class="coffee-cards__characteristic-progress">
+										<div class="coffee-cards__characteristic-progress-total"></div>
+										<div class="coffee-cards__characteristic-progress-current"></div>
+									</div>
+									<p class="coffee-cards__characteristic-desc">Горечь</p>
+								</div>
+								<div class="coffee-cards__characteristic-inner">
+									<div class="coffee-cards__characteristic-progress">
+										<div class="coffee-cards__characteristic-progress-total"></div>
+										<div class="coffee-cards__characteristic-progress-current"></div>
+									</div>
+									<p class="coffee-cards__characteristic-desc">Сладость</p>
+								</div>
+								<div class="coffee-cards__selected-list">
+									<p class="coffee-cards__selected-text">Для капельной кофевраки</p>
 									<div class="coffee-cards__selected-arrow">
 										<img src="/img/coffee-cards/arrow.jpg" alt="Открытие листа">
 									</div>
@@ -491,95 +594,10 @@
 							</div>
 						</div>
 						<div class="coffee-cards__name">
-							<p class="coffee-cards__title">Индонезия Фринса</p>
-							<p class="coffee-cards__subtitle">для эспрессо</p>
-						</div>
-						<div class="coffee-cards__main-side">
-							<div class="coffee-cards__characteristic">
-								<div class="coffee-cards__characteristic-inner">
-									<div class="coffee-cards__characteristic-progress">
-										<div class="coffee-cards__characteristic-progress-total"></div>
-										<div class="coffee-cards__characteristic-progress-current"></div>
-									</div>
-									<p class="coffee-cards__characteristic-desc">Кислотность</p>
-								</div>
-								<div class="coffee-cards__characteristic-inner">
-									<div class="coffee-cards__characteristic-progress">
-										<div class="coffee-cards__characteristic-progress-total"></div>
-										<div class="coffee-cards__characteristic-progress-current"></div>
-									</div>
-									<p class="coffee-cards__characteristic-desc">Горечь</p>
-								</div>
-								<div class="coffee-cards__characteristic-inner">
-									<div class="coffee-cards__characteristic-progress">
-										<div class="coffee-cards__characteristic-progress-total"></div>
-										<div class="coffee-cards__characteristic-progress-current"></div>
-									</div>
-									<p class="coffee-cards__characteristic-desc">Сладость</p>
-								</div>
-								<div class="coffee-cards__selected-list">
-									<p class="coffee-cards__selected-text">Помол</p>
-									<div class="coffee-cards__selected-arrow">
-										<img src="/img/coffee-cards/arrow.jpg" alt="Открытие листа">
-									</div>
-									<div class="coffee-cards__choice-list-wrap">
-										<p class="coffee-cards__choice">
-											<span>для капельной кофевраки</span>
-										</p>
-										<p class="coffee-cards__choice">фильтр</p>
-										<p class="coffee-cards__choice">для кемекса</p>
-										<p class="coffee-cards__choice">для аэроспрессо</p>
-										<p class="coffee-cards__choice">для эспрессо (грубо)</p>
-										<p class="coffee-cards__choice">для эспрессо (мягко)</p>
-										<p class="coffee-cards__choice">для турки</p>
-										<p class="coffee-cards__choice">для кофемашины</p>
-									</div>
-								</div>
-							</div>
-							<div class="coffee-cards__coffee-img">
-								<img src="/img/coffee-cards/coffee.png" alt="Кофе" width="180px" height="200px">
-							</div>
-						</div>
-						<p class="coffee-cards__description">Пряный аромат, сочное тело. Идеальный баланс винной и
-							яблочной кислотности и шлейф из нот красных ягод</p>
-						<div class="coffee-cards__user-tolls">
-							<div class="coffee-cards__tabs-wrap">
-								<div class="coffee-cards__tab _active">
-									<p class="coffee-cards__weight">250 г.</p>
-									<p class="coffee-cards__price">568 ₽</p>
-								</div>
-								<div class="coffee-cards__tab">
-									<p class="coffee-cards__weight">1000 г.</p>
-									<p class="coffee-cards__price">2488 ₽</p>
-								</div>
-							</div>
-							<button class="coffee-cards__btn-add" type="button">Добавить</button>
-						</div>
-					</div>
+							<a class="coffee-cards__detail-link" href="/html/ProductCard.html">
+								<p class="coffee-cards__title">Индонезия Фринса</p>
+							</a>
 
-					<div class="coffee-cards__card">
-						<div class="coffee-cards__stars-likes">
-							<div class="coffee-cards__stars">
-								<div class="coffee-cards__stars-top">
-									<img class="coffee-cards__stars-img" src="/img/coffee-cards/star.jpg" alt="Звезда"
-										width="16px" height="16px">
-									<p class="coffee-cards__stars-text stars-text">4.5</p>
-								</div>
-								<div class="coffee-cards__stars-bottom">
-									<div class="coffee-cards__stars-progress">
-										<div class="coffee-cards__stars-progress-total"></div>
-										<div class="coffee-cards__stars-progress-current"></div>
-									</div>
-								</div>
-							</div>
-							<div class="coffee-cards__like">
-								<img class="coffee-cards__like-img-disable" src="/img/coffee-cards/like-disable.jpg"
-									alt="Избранное">
-								<img class="coffee-cards__like-img" src="/img/coffee-cards/like.jpg" alt="Избранное">
-							</div>
-						</div>
-						<div class="coffee-cards__name">
-							<p class="coffee-cards__title">Индонезия Фринса</p>
 							<p class="coffee-cards__subtitle">для эспрессо</p>
 						</div>
 						<div class="coffee-cards__main-side">
@@ -606,7 +624,7 @@
 									<p class="coffee-cards__characteristic-desc">Сладость</p>
 								</div>
 								<div class="coffee-cards__selected-list">
-									<p class="coffee-cards__selected-text">Помол</p>
+									<p class="coffee-cards__selected-text">Для капельной кофевраки</p>
 									<div class="coffee-cards__selected-arrow">
 										<img src="/img/coffee-cards/arrow.jpg" alt="Открытие листа">
 									</div>
@@ -664,14 +682,17 @@
 									</div>
 								</div>
 							</div>
-							<div class="coffee-cards__like">
+							<div class="coffee-cards__like _active">
 								<img class="coffee-cards__like-img-disable" src="/img/coffee-cards/like-disable.jpg"
 									alt="Избранное">
 								<img class="coffee-cards__like-img" src="/img/coffee-cards/like.jpg" alt="Избранное">
 							</div>
 						</div>
 						<div class="coffee-cards__name">
-							<p class="coffee-cards__title">Индонезия Фринса</p>
+							<a class="coffee-cards__detail-link" href="/html/ProductCard.html">
+								<p class="coffee-cards__title">Индонезия Фринса</p>
+							</a>
+
 							<p class="coffee-cards__subtitle">для эспрессо</p>
 						</div>
 						<div class="coffee-cards__main-side">
@@ -698,7 +719,98 @@
 									<p class="coffee-cards__characteristic-desc">Сладость</p>
 								</div>
 								<div class="coffee-cards__selected-list">
-									<p class="coffee-cards__selected-text">Помол</p>
+									<p class="coffee-cards__selected-text">Для капельной кофевраки</p>
+									<div class="coffee-cards__selected-arrow">
+										<img src="/img/coffee-cards/arrow.jpg" alt="Открытие листа">
+									</div>
+									<div class="coffee-cards__choice-list-wrap _active">
+										<p class="coffee-cards__choice">
+											<span>для капельной кофевраки</span>
+										</p>
+										<p class="coffee-cards__choice">фильтр</p>
+										<p class="coffee-cards__choice">для кемекса</p>
+										<p class="coffee-cards__choice">для аэроспрессо</p>
+										<p class="coffee-cards__choice">для эспрессо (грубо)</p>
+										<p class="coffee-cards__choice">для эспрессо (мягко)</p>
+										<p class="coffee-cards__choice">для турки</p>
+										<p class="coffee-cards__choice">для кофемашины</p>
+									</div>
+								</div>
+							</div>
+							<div class="coffee-cards__coffee-img">
+								<img src="/img/coffee-cards/coffee.png" alt="Кофе" width="180px" height="200px">
+							</div>
+						</div>
+						<p class="coffee-cards__description">Пряный аромат, сочное тело. Идеальный баланс винной и
+							яблочной кислотности и шлейф из нот красных ягод</p>
+						<div class="coffee-cards__user-tolls">
+							<div class="coffee-cards__tabs-wrap">
+								<div class="coffee-cards__tab _active">
+									<p class="coffee-cards__weight">250 г.</p>
+									<p class="coffee-cards__price">568 ₽</p>
+								</div>
+								<div class="coffee-cards__tab">
+									<p class="coffee-cards__weight">1000 г.</p>
+									<p class="coffee-cards__price">2488 ₽</p>
+								</div>
+							</div>
+							<button class="coffee-cards__btn-add" type="button">Добавить</button>
+						</div>
+					</div>
+
+					<div class="coffee-cards__card">
+						<div class="coffee-cards__stars-likes">
+							<div class="coffee-cards__stars">
+								<div class="coffee-cards__stars-top">
+									<img class="coffee-cards__stars-img" src="/img/coffee-cards/star.jpg" alt="Звезда"
+										width="16px" height="16px">
+									<p class="coffee-cards__stars-text stars-text">4.5</p>
+								</div>
+								<div class="coffee-cards__stars-bottom">
+									<div class="coffee-cards__stars-progress">
+										<div class="coffee-cards__stars-progress-total"></div>
+										<div class="coffee-cards__stars-progress-current"></div>
+									</div>
+								</div>
+							</div>
+							<div class="coffee-cards__like">
+								<img class="coffee-cards__like-img-disable" src="/img/coffee-cards/like-disable.jpg"
+									alt="Избранное">
+								<img class="coffee-cards__like-img" src="/img/coffee-cards/like.jpg" alt="Избранное">
+							</div>
+						</div>
+						<div class="coffee-cards__name">
+							<a class="coffee-cards__detail-link" href="/html/ProductCard.html">
+								<p class="coffee-cards__title">Индонезия Фринса</p>
+							</a>
+
+							<p class="coffee-cards__subtitle">для эспрессо</p>
+						</div>
+						<div class="coffee-cards__main-side">
+							<div class="coffee-cards__characteristic">
+								<div class="coffee-cards__characteristic-inner">
+									<div class="coffee-cards__characteristic-progress">
+										<div class="coffee-cards__characteristic-progress-total"></div>
+										<div class="coffee-cards__characteristic-progress-current"></div>
+									</div>
+									<p class="coffee-cards__characteristic-desc">Кислотность</p>
+								</div>
+								<div class="coffee-cards__characteristic-inner">
+									<div class="coffee-cards__characteristic-progress">
+										<div class="coffee-cards__characteristic-progress-total"></div>
+										<div class="coffee-cards__characteristic-progress-current"></div>
+									</div>
+									<p class="coffee-cards__characteristic-desc">Горечь</p>
+								</div>
+								<div class="coffee-cards__characteristic-inner">
+									<div class="coffee-cards__characteristic-progress">
+										<div class="coffee-cards__characteristic-progress-total"></div>
+										<div class="coffee-cards__characteristic-progress-current"></div>
+									</div>
+									<p class="coffee-cards__characteristic-desc">Сладость</p>
+								</div>
+								<div class="coffee-cards__selected-list">
+									<p class="coffee-cards__selected-text">Для капельной кофевраки</p>
 									<div class="coffee-cards__selected-arrow">
 										<img src="/img/coffee-cards/arrow.jpg" alt="Открытие листа">
 									</div>
@@ -759,95 +871,10 @@
 							</div>
 						</div>
 						<div class="coffee-cards__name">
-							<p class="coffee-cards__title">Индонезия Фринса</p>
-							<p class="coffee-cards__subtitle">для эспрессо</p>
-						</div>
-						<div class="coffee-cards__main-side">
-							<div class="coffee-cards__characteristic">
-								<div class="coffee-cards__characteristic-inner">
-									<div class="coffee-cards__characteristic-progress">
-										<div class="coffee-cards__characteristic-progress-total"></div>
-										<div class="coffee-cards__characteristic-progress-current"></div>
-									</div>
-									<p class="coffee-cards__characteristic-desc">Кислотность</p>
-								</div>
-								<div class="coffee-cards__characteristic-inner">
-									<div class="coffee-cards__characteristic-progress">
-										<div class="coffee-cards__characteristic-progress-total"></div>
-										<div class="coffee-cards__characteristic-progress-current"></div>
-									</div>
-									<p class="coffee-cards__characteristic-desc">Горечь</p>
-								</div>
-								<div class="coffee-cards__characteristic-inner">
-									<div class="coffee-cards__characteristic-progress">
-										<div class="coffee-cards__characteristic-progress-total"></div>
-										<div class="coffee-cards__characteristic-progress-current"></div>
-									</div>
-									<p class="coffee-cards__characteristic-desc">Сладость</p>
-								</div>
-								<div class="coffee-cards__selected-list">
-									<p class="coffee-cards__selected-text">Помол</p>
-									<div class="coffee-cards__selected-arrow">
-										<img src="/img/coffee-cards/arrow.jpg" alt="Открытие листа">
-									</div>
-									<div class="coffee-cards__choice-list-wrap">
-										<p class="coffee-cards__choice">
-											<span>для капельной кофевраки</span>
-										</p>
-										<p class="coffee-cards__choice">фильтр</p>
-										<p class="coffee-cards__choice">для кемекса</p>
-										<p class="coffee-cards__choice">для аэроспрессо</p>
-										<p class="coffee-cards__choice">для эспрессо (грубо)</p>
-										<p class="coffee-cards__choice">для эспрессо (мягко)</p>
-										<p class="coffee-cards__choice">для турки</p>
-										<p class="coffee-cards__choice">для кофемашины</p>
-									</div>
-								</div>
-							</div>
-							<div class="coffee-cards__coffee-img">
-								<img src="/img/coffee-cards/coffee.png" alt="Кофе" width="180px" height="200px">
-							</div>
-						</div>
-						<p class="coffee-cards__description">Пряный аромат, сочное тело. Идеальный баланс винной и
-							яблочной кислотности и шлейф из нот красных ягод</p>
-						<div class="coffee-cards__user-tolls">
-							<div class="coffee-cards__tabs-wrap">
-								<div class="coffee-cards__tab _active">
-									<p class="coffee-cards__weight">250 г.</p>
-									<p class="coffee-cards__price">568 ₽</p>
-								</div>
-								<div class="coffee-cards__tab">
-									<p class="coffee-cards__weight">1000 г.</p>
-									<p class="coffee-cards__price">2488 ₽</p>
-								</div>
-							</div>
-							<button class="coffee-cards__btn-add" type="button">Добавить</button>
-						</div>
-					</div>
+							<a class="coffee-cards__detail-link" href="/html/ProductCard.html">
+								<p class="coffee-cards__title">Индонезия Фринса</p>
+							</a>
 
-					<div class="coffee-cards__card">
-						<div class="coffee-cards__stars-likes">
-							<div class="coffee-cards__stars">
-								<div class="coffee-cards__stars-top">
-									<img class="coffee-cards__stars-img" src="/img/coffee-cards/star.jpg" alt="Звезда"
-										width="16px" height="16px">
-									<p class="coffee-cards__stars-text stars-text">4.5</p>
-								</div>
-								<div class="coffee-cards__stars-bottom">
-									<div class="coffee-cards__stars-progress">
-										<div class="coffee-cards__stars-progress-total"></div>
-										<div class="coffee-cards__stars-progress-current"></div>
-									</div>
-								</div>
-							</div>
-							<div class="coffee-cards__like">
-								<img class="coffee-cards__like-img-disable" src="/img/coffee-cards/like-disable.jpg"
-									alt="Избранное">
-								<img class="coffee-cards__like-img" src="/img/coffee-cards/like.jpg" alt="Избранное">
-							</div>
-						</div>
-						<div class="coffee-cards__name">
-							<p class="coffee-cards__title">Индонезия Фринса</p>
 							<p class="coffee-cards__subtitle">для эспрессо</p>
 						</div>
 						<div class="coffee-cards__main-side">
@@ -874,7 +901,7 @@
 									<p class="coffee-cards__characteristic-desc">Сладость</p>
 								</div>
 								<div class="coffee-cards__selected-list">
-									<p class="coffee-cards__selected-text">Помол</p>
+									<p class="coffee-cards__selected-text">Для капельной кофевраки</p>
 									<div class="coffee-cards__selected-arrow">
 										<img src="/img/coffee-cards/arrow.jpg" alt="Открытие листа">
 									</div>
@@ -914,6 +941,7 @@
 					</div>
 
 				</div>
+
 
 			</div>
 			<div class="coffee-cards__show-more-wrap">
