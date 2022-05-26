@@ -1,0 +1,153 @@
+.cart {
+	display: none;
+}
+
+.cart._is-active {
+	display: block;
+}
+
+.cart__shadow {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 9999;
+	background-color: var(--black-shadow);
+}
+
+.cart__container {
+	position: relative;
+	flex-basis: 900px;
+	background-color: var(--white-color);
+}
+
+.cart__inner {
+	padding: 50px;
+}
+
+.cart__exit-btn-wrap {
+	position: absolute;
+	top: 50px;
+	right: 50px;
+}
+
+.cart__title {
+	margin-bottom: 45px;
+}
+
+.cart__container-all-products {
+	margin-bottom: 40px;
+}
+
+.cart__product {
+	display: flex;
+	justify-content: space-between;
+	height: 200px;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.cart__product:not(:last-child) {
+	margin-bottom: 25px;
+}
+
+.cart__coffee-img {
+	flex-basis: 10%;
+}
+
+.cart__container-name-n-weight {
+	flex-basis: 35%;
+}
+
+.cart__name {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.cart__weight {
+	color: var(--grey-color-disable);
+	font-size: 18px;
+}
+
+.cart__container-count-n-weight-count {
+	flex-basis: 15%;
+}
+
+.cart__box-count {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.cart__count-minus {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cart__count {
+	font-size: 20px;
+}
+
+.cart__count-plus {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cart__box-weight-count {
+	font-size: 16px;
+	color: var(--grey-color-disable);
+}
+
+.cart__container-cost-n-btn-del {
+	flex-basis: 15%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.cart__box-cost {
+	margin: 20px 0;
+}
+
+.cart__cost {
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.cart__currency {
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.cart__brn-del {
+	font-size: 16px;
+	color: var(--grey-color-disable);
+}
+
+.cart__container-total-cost {
+	border-top: 1px solid var(--black-color);
+	padding: 50px;
+}
+
+.cart__title-text,
+.cart__total-cost,
+.cart__total-currency {
+	font-weight: 600;
+	font-size: 24px;
+}
+
+.cart__title-text {
+	margin-right: 10px;
+}
