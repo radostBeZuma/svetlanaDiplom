@@ -17,6 +17,8 @@
 	<link rel="stylesheet" href="/css/product.css">
 	<link rel="stylesheet" href="/css/comment.css">
 	<link rel="stylesheet" href="/css/comment-all.css">
+	<link rel="stylesheet" href="/css/feedback.css">
+
 	<!-- Css init end -->
 
 </head>
@@ -56,13 +58,11 @@
 					<div class="product__tools">
 						<div class="coffee-cards__selected-list">
 							<p class="coffee-cards__selected-text">Помол</p>
-							<div class="coffee-cards__selected-arrow">
+							<button class="coffee-cards__selected-arrow _is-active" type="button">
 								<img src="/img/coffee-cards/arrow.jpg" alt="Открытие листа">
-							</div>
+							</button>
 							<div class="coffee-cards__choice-list-wrap">
-								<p class="coffee-cards__choice">
-									<span>для капельной кофевраки</span>
-								</p>
+								<p class="coffee-cards__choice">для капельной кофевраки</p>
 								<p class="coffee-cards__choice">фильтр</p>
 								<p class="coffee-cards__choice">для кемекса</p>
 								<p class="coffee-cards__choice">для аэроспрессо</p>
@@ -193,7 +193,68 @@
 		</section>
 
 		<section class="feedback">
-			
+			<div class="feedback__shadow">
+				<div class="feedback__container">
+					<button class="feedback__exit-btn-wrap">
+						<img src="/img/feedback/exit.jpg" alt="Выход" width="25px" height="25px">
+					</button>
+					<h2 class="feedback__head-text">Новый отзыв</h2>
+					<form class="feedback__container-form">
+
+						<div class="feedback__container-input-n-select-list">
+							<input class="feedback__input input-secondary" type="text"
+								placeholder="Введите способ обжарки">
+							<button class="feedback__btn-open-select-list" type="button">
+								<img class="feedback__arrow-img" src="/img/feedback/arrow.jpg" alt="Открыть выбор">
+							</button>
+							<div class="feedback__select-list">
+								<button class="feedback__choice" type="button">для капельной кофевраки</button>
+								<button class="feedback__choice" type="button">фильтр</button>
+								<button class="feedback__choice" type="button">для кемекса</button>
+								<button class="feedback__choice" type="button">для аэроспрессо</button>
+								<button class="feedback__choice" type="button">для эспрессо (грубо)</button>
+								<button class="feedback__choice" type="button">для эспрессо (мягко)</button>
+								<button class="feedback__choice" type="button">для турки</button>
+								<button class="feedback__choice" type="button">для кофемашины</button>
+							</div>
+						</div>
+
+						<div class="feedback__container-input-n-select-list">
+							<input class="feedback__input input-secondary" type="text" placeholder="Введите город">
+							<button class="feedback__btn-open-select-list" type="button">
+								<img class="feedback__arrow-img" src="/img/feedback/arrow.jpg" alt="Открыть выбор">
+							</button>
+							<div class="feedback__select-list">
+								<button class="feedback__choice" type="button">г. Тула</button>
+								<button class="feedback__choice" type="button">г. Липецк</button>
+								<button class="feedback__choice" type="button">г.Новомосковск</button>
+								<button class="feedback__choice" type="button">для аэроспрессо</button>
+								<button class="feedback__choice" type="button">для эспрессо (грубо)</button>
+								<button class="feedback__choice" type="button">для эспрессо (мягко)</button>
+								<button class="feedback__choice" type="button">для турки</button>
+								<button class="feedback__choice" type="button">для кофемашины</button>
+							</div>
+						</div>
+
+						<textarea class="feedback__textarea textarea-primary"
+							placeholder="Напишите ваш отзыв"></textarea>
+
+						<div class="feedback__container-assessment">
+							<p class="feedback__assess-title">Общая оценка</p>
+							<img src="/img/feedback/star.jpg" alt="Оценка" width="36px" height="36px">
+							<img src="/img/feedback/star.jpg" alt="Оценка" width="36px" height="36px">
+							<img src="/img/feedback/star.jpg" alt="Оценка" width="36px" height="36px">
+							<img src="/img/feedback/star.jpg" alt="Оценка" width="36px" height="36px">
+							<img src="/img/feedback/star.jpg" alt="Оценка" width="36px" height="36px">
+						</div>
+
+						<div class="feedback__container-sbt-btn">
+							<button class="feedback__sbt-btn submit-btn" type="button">Оставить отзыв</button>
+						</div>
+
+					</form>
+				</div>
+			</div>
 		</section>
 	</div>
 </body>

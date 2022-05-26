@@ -1,0 +1,124 @@
+.feedback {
+	display: none;
+}
+
+.feedback._is-active {
+	display: block;
+}
+
+
+.feedback__shadow {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 9999;
+	background-color: var(--black-shadow);
+}
+
+.feedback__container {
+	position: relative;
+	flex-basis: 690px;
+	padding: 35px 50px;
+	box-sizing: border-box;
+	background-color: var(--white-color);
+}
+
+.feedback__exit-btn-wrap {
+	position: absolute;
+	top: 35px;
+	right: 35px;
+}
+
+.feedback__head-text {
+	text-align: center;
+}
+
+.feedback__container-form {
+	margin-top: 45px;
+}
+
+.feedback__container-input-n-select-list {
+	position: relative;
+}
+
+.feedback__container-input-n-select-list:not(:last-child) {
+	margin-bottom: 25px;
+}
+
+.feedback__input {
+	width: 100%;
+}
+
+.feedback__btn-open-select-list {
+	cursor: pointer;
+	position: absolute;
+	top: 30px;
+	right: 35px;
+	border: none;
+	background-color: transparent;
+	transition: transform 0.5s 0.5s;
+}
+
+.feedback__btn-open-select-list._is-active {
+	transform: rotate(180deg);
+}
+
+.feedback__btn-open-select-list._is-active~.feedback__select-list {
+	display: block;
+}
+
+.feedback__select-list {
+	display: none;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 15px;
+	border: 1px solid var(--grey-form-color);
+	background-color: var(--white-color);
+	position: absolute;
+	top: 90px;
+	left: 0;
+}
+
+.feedback__choice {
+	cursor: pointer;
+	width: 100%;
+	border: none;
+	background-color: transparent;
+	text-align: left;
+	padding: 10px;
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.feedback__choice:hover {
+	color: var(--white-color);
+	background-color: var(--black-color);
+}
+
+.feedback__textarea {
+	width: 100%;
+	height: 220px;
+}
+
+.feedback__container-assessment {
+	margin-top: 40px;
+}
+
+.feedback__assess-title {
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.feedback__container-sbt-btn {
+	margin-top: 30px;
+	display: flex;
+	justify-content: flex-end;
+}

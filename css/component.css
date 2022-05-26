@@ -60,10 +60,10 @@ p {
 	font-weight: 400;
 }
 
+/* all-input init */
+
 input {
 	border: none;
-	padding: 15px 10px;
-	border-bottom: 2px solid var(--black-color);
 	font-family: 'Rubik';
 	font-style: normal;
 	font-weight: 400;
@@ -73,45 +73,64 @@ input {
 
 input:focus {
 	outline: none;
-	border-width: 3px;
 }
 
 input::placeholder {
 	color: var(--grey-form-color);
 }
 
-.wrapper {
-	max-width: 1150px;
-	padding: 0 15px;
-	margin: 0 auto;
+.input-primary {
+	padding: 15px 10px;
+	border-bottom: 2px solid var(--black-color);
 }
 
-.menu-link {
-	font-family: 'Manrope';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 14px;
-	line-height: 19px;
+.input-primary:focus {
+	border-width: 3px;
 }
 
-.search-text {
-	font-family: 'Rubik';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 100%;
+.input-secondary {
+	padding: 25px 70px 25px 35px;
+	border: 2px solid var(--grey-form-color);
+	border-radius: 10px;
+	font-weight: 500;
 }
 
-.stars-text {
+/* all-input init end*/
+
+/* all-textarea init */
+
+textarea {
+	border: none;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+textarea::placeholder {
+	color: var(--grey-form-color);
+}
+
+.textarea-primary {
+	box-sizing: border-box;
+	border: 1px solid var(--grey-color-disable);
+	border-radius: 10px;
+	padding: 25px 35px;
+	resize: none;
 	font-family: 'Manrope';
 	font-style: normal;
 	font-weight: 600;
 	font-size: 16px;
 }
 
-.title-pos {
-	margin-top: 35px;
-	margin-bottom: 45px;
+/* all-textarea init end*/
+
+/* all-btn init */
+
+button {
+	cursor: pointer;
+	border: none;
+	background-color: transparent;
 }
 
 .btn-big {
@@ -152,6 +171,44 @@ input::placeholder {
 	background-color: transparent;
 	color: var(--black-color);
 }
+
+/* all-btn init end*/
+
+.wrapper {
+	max-width: 1150px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.menu-link {
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 19px;
+}
+
+.search-text {
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 100%;
+}
+
+.stars-text {
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.title-pos {
+	margin-top: 35px;
+	margin-bottom: 45px;
+}
+
+
 
 .mt45 {
 	margin-top: 45px;
