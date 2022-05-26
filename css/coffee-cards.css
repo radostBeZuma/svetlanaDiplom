@@ -4,8 +4,7 @@
 }
 
 .coffee-cards__card {
-	flex: 0 1 33%;
-	/* flex-basis: 33.3%; */
+	flex-basis: 33.3%;
 }
 
 .coffee-cards__card:not(:last-child) {
@@ -195,11 +194,27 @@
 	border: 1px solid var(--black-color);
 }
 
+.coffee-cards__selected-arrow {
+	cursor: pointer;
+	background-color: transparent;
+	border: none;
+	transition: transform 0.5s 0.5s;
+}
+
+.coffee-cards__selected-arrow._is-active {
+	transform: rotate(180deg);
+}
+
 .coffee-cards__selected-text {
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	margin-right: 10px;
+}
+
+/* использовать тильду тогда, когда на одном ровне элементы находятся */
+.coffee-cards__selected-arrow._is-active~.coffee-cards__choice-list-wrap {
+	display: block;
 }
 
 .coffee-cards__choice-list-wrap {
@@ -212,10 +227,6 @@
 	background-color: var(--white-color);
 	border: 1px solid var(--black-color);
 	border-radius: 10px;
-}
-
-.coffee-cards__choice-list-wrap._active {
-	display: block;
 }
 
 .coffee-cards__choice {
@@ -232,15 +243,6 @@
 .coffee-cards__choice:hover {
 	color: var(--white-color);
 	background-color: var(--black-color);
-}
-
-.coffee-cards__choice span {
-	transition: transform 0.3s;
-}
-
-.coffee-cards__choice:hover span {
-	display: inline-block;
-	transform: translateX(5px);
 }
 
 .coffee-cards__description {
