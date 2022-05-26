@@ -1,3 +1,73 @@
+.comment.grey-theme .comment__wrap {
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
 .comment__wrap {
+	max-width: 880px;
+	margin: 0 auto;
 	padding: 25px 30px;
+}
+
+.comment__container-info {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+
+.comment__name-user {
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	color: var(--grey-comment-color);
+}
+
+.comment__town-user {
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	color: var(--grey-color-disable);
+}
+
+.comment__date {
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	color: var(--grey-color-disable);
+}
+
+.comment__msg {
+	margin-bottom: 15px;
+	font-size: 16px;
+	color: var(--grey-comment-color);
+}
+
+.comment__container-opinion {
+	display: flex;
+}
+
+.comment__box-opinion {
+	display: flex;
+	align-items: center;
+}
+
+.comment__box-opinion:not(:last-child) {
+	margin-right: 20px;
+}
+
+.comment__btn-opinion {
+	cursor: pointer;
+	margin-right: 15px;
+	border: none;
+	background-color: transparent;
+}
+
+.comment__count-opinion {
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	color: var(--grey-color-disable);
 }

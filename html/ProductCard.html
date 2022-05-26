@@ -16,6 +16,7 @@
 	<link rel="stylesheet" href="/css/header.css">
 	<link rel="stylesheet" href="/css/product.css">
 	<link rel="stylesheet" href="/css/comment.css">
+	<link rel="stylesheet" href="/css/comment-all.css">
 	<!-- Css init end -->
 
 </head>
@@ -119,11 +120,78 @@
 			</div>
 		</section>
 
-		<section class="comment">
-			<div class="comment__wrap">
-				
+		<!-- Если не понравится тень, убрать класс grey-theme -->
+		<section class="comment-all-container">
+			<div class="comment-all__wrap">
+				<h4 class="comment-all__title">Комментарии:</h4>
+				<section class="comment grey-theme">
+					<div class="comment__wrap">
+						<div class="comment__container-info">
+							<div class="comment__container-name-n-town">
+								<p class="comment__name-user">Светлана Филина</p>
+								<p class="comment__town-user">г. Тула</p>
+							</div>
+							<p class="comment__date">24.04.2022</p>
+						</div>
+						<div class="comment__container-msg-n-opinion">
+							<p class="comment__msg">Беру постоянно очень советую! Одназначно лайк! Люблю кофе, кофейню и
+								продукты! Все очень люблю и хочу еще больше!</p>
+							<div class="comment__container-opinion">
+								<div class="comment__box-opinion">
+									<button class="comment__btn-opinion comment__btn-dis" type="button">
+										<img class="comment__img-opinion comment__img-dis" src="/img/comment/like.jpg"
+											alt="Нравится" width="20px" height="20px">
+									</button>
+									<p class="comment__count-opinion comment__count-dis">0</p>
+								</div>
+								<div class="comment__box-opinion">
+									<button class="comment__btn-opinion comment__btn-like" type="button">
+										<img class="comment__img-opinion" src="/img/comment/dis.jpg" alt="Не нравится"
+											width="20px" height="20px">
+									</button>
+									<p class="comment__count-opinion comment__count-like">1</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="comment">
+					<div class="comment__wrap">
+						<div class="comment__container-info">
+							<div class="comment__container-name-n-town">
+								<p class="comment__name-user">Светлана Филина</p>
+								<p class="comment__town-user">г. Тула</p>
+							</div>
+							<p class="comment__date">24.04.2022</p>
+						</div>
+						<div class="comment__container-msg-n-opinion">
+							<p class="comment__msg">Беру постоянно очень советую! Одназначно лайк! Люблю кофе, кофейню и
+								продукты! Все очень люблю и хочу еще больше!</p>
+							<div class="comment__container-opinion">
+								<div class="comment__box-opinion">
+									<button class="comment__btn-opinion comment__btn-dis" type="button">
+										<img class="comment__img-opinion comment__img-dis" src="/img/comment/like.jpg"
+											alt="Нравится" width="20px" height="20px">
+									</button>
+									<p class="comment__count-opinion comment__count-dis">0</p>
+								</div>
+								<div class="comment__box-opinion">
+									<button class="comment__btn-opinion comment__btn-like" type="button">
+										<img class="comment__img-opinion" src="/img/comment/dis.jpg" alt="Не нравится"
+											width="20px" height="20px">
+									</button>
+									<p class="comment__count-opinion comment__count-like">0</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 			</div>
+
+
 		</section>
+
 
 	</div>
 </body>

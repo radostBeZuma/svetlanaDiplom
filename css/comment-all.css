@@ -1,0 +1,13 @@
+.comment-all-container .comment__wrap {
+	margin-bottom: 40px;
+}
+
+.comment-all__wrap {
+	max-width: 880px;
+	margin: 0 auto;
+}
+
+.comment-all__title {
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
