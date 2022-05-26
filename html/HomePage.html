@@ -12,6 +12,9 @@
 	<link rel="shortcut icon" href="/img/favicon.png" type="image/png">
 
 	<!-- Css init -->
+	<!-- css page init-->
+	<link rel="stylesheet" href="/css/homePage.css">
+	<!-- css page init end -->
 	<link rel="stylesheet" href="/css/component.css">
 	<link rel="stylesheet" href="/css/header.css">
 	<link rel="stylesheet" href="/css/welcome-block.css">
@@ -23,6 +26,7 @@
 	<link rel="stylesheet" href="/css/form.css">
 	<link rel="stylesheet" href="/css/login.css">
 	<link rel="stylesheet" href="/css/registration.css">
+
 	<!-- Css init end -->
 
 </head>
@@ -51,16 +55,14 @@
 			</div>
 		</header>
 
-		<section class="welcome-block">
-			<div class="welcome-block__wrapper">
-				<h1 class="welcome-block__head-text">Наслаждайтесь кофе </br> вместе с Зерновой</h1>
-				<p class="welcome-block__desc">Каким бы утро не было хорошим - без кофе утро <br> не может быть.</p>
-				<img class="welcome-block__img" src="/img//welcome-block//girl-cofe.jpg" alt="Преветственная картинка"
-					width="679px" height="748px">
-			</div>
+		<section class="welcome-block homePage__welcome-block-layout">
+			<h1 class="welcome-block__head-text">Наслаждайтесь кофе </br> вместе с Зерновой</h1>
+			<p class="welcome-block__desc">Каким бы утро не было хорошим - без кофе утро <br> не может быть.</p>
+			<img class="welcome-block__img" src="/img//welcome-block//girl-cofe.jpg" alt="Преветственная картинка"
+				width="679px" height="748px">
 		</section>
 
-		<section class="about about__wrapper">
+		<section class="about homePage__about-layout">
 			<h2>Зерновая — объединение людей, которые в восторге от кофе</h2>
 			<div class="about__inner">
 				<div class="about__img-wrap">
@@ -77,11 +79,9 @@
 			</div>
 		</section>
 
-		<section class="interesting-offers">
-			<div class="interesting-offers__wrapper">
-				<h2 class="interesting-offers__head-text">Интересные предложения</h2>
-				<p class="interesting-offers__desc">Основано на предпочтениях пользователей</p>
-			</div>
+		<section class="interesting-offers homePage__interesting-offers-layout">
+			<h2 class="interesting-offers__head-text">Интересные предложения</h2>
+			<p class="interesting-offers__desc">Основано на предпочтениях пользователей</p>
 
 			<section class="coffee-cards">
 				<div class="coffee-cards__wrapper">
